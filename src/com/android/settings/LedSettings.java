@@ -85,7 +85,7 @@ public class LedSettings extends SettingsPreferenceFragment {
     private List<String> mTriggerSupportList = new ArrayList<String>();
 	private List<String> mTriggerSupportListDes = new ArrayList<String>();
 
-    String[] userList=new String[]{"temp","heartbeat","default-on","off"};
+    String[] userList=new String[]{"temp","heartbeat","default-on","none"};
     String[] userListTitle=new String[]{"High Temprerature","Heartbeat","Always On","Always Off"}; 
 	HashMap<String,String> mHashMap=new HashMap<String,String>();
 
